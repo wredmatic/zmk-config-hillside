@@ -31,6 +31,7 @@
         COMBO(ten, &kp C_BRI_DN, 18 19, 0 1 2 3 4 5 6)
         COMBO(eleven, &mo 5, 1 2 3 4, 0 1 2 3 4 5 6)
         COMBO(twelve, &mo 6, 36 37, 0 1 2 3 4 5 6)
+        COMBO(reset_to_flash_firmware, &bootloader, 38 39 40, 0 1 2 3 4 5 6)
 //      h and , (bottom row right hand index middle fingers) = F13 (triggers BTT rewind in Vivaldi)
         COMBO(thirteen, &kp F13, 31 32, 0 1 2 3 4 5 6)
 //      , and . (bottom row right hand middle and ring fingers) = F14 (triggered by BTT fastforward in Vivaldi)
