@@ -47,7 +47,7 @@
 //      activates append only one note shortcut (configured in btt keyboard shortcut settings)
         COMBO(singlenote, &kp F19, 36 41, 0 1 2 3 4 5 6)
 //      middle and right buttons for left thumb activate command shift
-        COMBO(commandshift, &cmd_shft, 37 38, 0 1 2 3 4 5 6)
+        COMBO(commandshift, &cmd_shft, 43 44, 0 1 2 3 4 5 6)
     };
 
     mp: medium-long-press {
