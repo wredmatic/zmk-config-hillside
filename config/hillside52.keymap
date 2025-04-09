@@ -23,15 +23,10 @@
         compatible = "zmk,combos";
   
         COMBO(one, &kp ESC, 0 1, 0 1 2 3 4 5 6)
-        COMBO(two, &ctrl_shift, 28 36, 0 1 2 3 4 5 6)
         COMBO(three, &kp DEL, 10 11, 0 1 2 3 4 5 6)
-        COMBO(fourA, &kp UP, 22 23, 0 2 3 4 5 6)
-        COMBO(fiveA, &kp DOWN, 34 35, 0 2 3 4 5 6)
-        COMBO(fourB, &kp LC(UP), 22 23, 1)
-        COMBO(fiveB, &kp LC(DOWN), 34 35, 1)
-        COMBO(six, &kp C_VOL_UP, 40 41, 0 1 2 3 4 5 6)
-        COMBO(seven, &kp C_VOL_DN, 39 40, 0 1 2 3 4 5 6)
-        COMBO(eight, &kp C_PP, 33 34, 0 1 2 3 4 5 6)
+        COMBO(six, &kp C_VOL_UP, 46 47, 0 1 2 3 4 5 6)
+        COMBO(seven, &kp C_VOL_DN, 45 46, 0 1 2 3 4 5 6)
+        COMBO(eight, &kp C_PP, 47 48, 0 1 2 3 4 5 6)
         COMBO(nine, &kp C_BRI_UP, 6 7, 0 1 2 3 4 5 6)
         COMBO(ten, &kp C_BRI_DN, 18 19, 0 1 2 3 4 5 6)
         COMBO(eleven, &mo 5, 1 2 3 4, 0 1 2 3 4 5 6)
@@ -222,10 +217,10 @@ db: double-bracket {
    &kp LC(GRAVE) &kp LC(A)    &kp LC(S)   &kp LS(RC(TAB)) &kp RC(TAB)  &kp LC(G)                                 &kp MINUS    &mp LPAR N4  &mp RPAR N5  &mp SLASH N6    &kp N0     &kp DOT
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
-    &kp LC(ESC)  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(D)    &kp LC(V)        &none           &none        &kp EQUAL   &kp N1       &kp N2       &kp N3       &kp UP         &none
+    &kp LC(ESC)  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(D)    &kp LC(V)        &none           &none        &kp EQUAL   &kp N1       &kp N2       &kp N3       &kp LC(UP)      &none
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |           
-      &none         &none        &none        &none       &kp LGUI    &kp LSHIFT      &none            &none        &none       &kp LC(SPACE) &kp LC(RET)   &kp LEFT     &kp DOWN     &kp RIGHT
+      &none         &none        &none        &none       &kp LGUI    &kp LSHIFT      &none            &none        &none     &kp LC(SPACE) &kp LC(RET) &kp LC(LEFT)  &kp LC(DOWN) &kp LC(RIGHT)
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
                         >;
                 };
