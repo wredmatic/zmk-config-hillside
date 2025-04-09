@@ -202,7 +202,7 @@ db: double-bracket {
     &mp LALT ESC  &kp Z        &kp X       &kp C        &mp MINUS D   &kp V           &none            &none     &mp CARET K  &mp HASH H   &kp COMMA    &kp DOT      &kp UP         &none
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |           
-      &none         &none        &none     &lt 1 HOME   &cmd_plus   &mt LSHIFT SPACE  &none            &none     &lt 3 END    &lt 4 SPACE  &mt RALT RET  &kp LEFT     &kp DOWN    &kp RIGHT
+      &none         &none        &none        &none     &lt 1 HOME   &cmd_plus   &mt LSHIFT SPACE  &lt 3 END    &lt 4 SPACE  &mt RALT RET    &none     &kp LEFT     &kp DOWN    &kp RIGHT
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
                         >;
                 };
@@ -220,7 +220,7 @@ db: double-bracket {
     &kp LC(ESC)  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(D)    &kp LC(V)        &none           &none        &kp EQUAL   &kp N1       &kp N2       &kp N3       &kp LC(UP)      &none
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |           
-      &none         &none        &none        &none       &kp LGUI    &kp LSHIFT      &none            &none        &none     &kp LC(SPACE) &kp LC(RET) &kp LC(LEFT)  &kp LC(DOWN) &kp LC(RIGHT)
+      &none         &none        &none        &none       &none      &kp LGUI     &kp LSHIFT           &none     &kp LC(SPACE) &kp LC(RET)    &none     &kp LC(LEFT) &kp LC(DOWN) &kp LC(RIGHT)
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
                         >;
                 };
