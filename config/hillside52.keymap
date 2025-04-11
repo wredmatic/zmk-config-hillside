@@ -26,7 +26,9 @@
         COMBO(three, &kp DEL, 10 11, 0 1 2 3 4 5 6)
         COMBO(six, &kp C_VOL_UP, 46 47, 0 1 2 3 4 5 6)
         COMBO(seven, &kp C_VOL_DN, 45 46, 0 1 2 3 4 5 6)
-        COMBO(eight, &kp C_PP, 47 48, 0 1 2 3 4 5 6)
+//      the following "eight" buttons activate play/pause
+        COMBO(eightA, &kp C_PP, 35 36, 0 1 2 3 4 5 6)
+        COMBO(eightB, &kp C_PP, 47 48, 0 1 2 3 4 5 6)
         COMBO(nine, &kp C_BRI_UP, 6 7, 0 1 2 3 4 5 6)
         COMBO(ten, &kp C_BRI_DN, 18 19, 0 1 2 3 4 5 6)
         COMBO(eleven, &mo 5, 1 2 3 4, 0 1 2 3 4 5 6)
