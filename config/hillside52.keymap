@@ -217,10 +217,10 @@ eb: close-double-bracket {
                         bindings = < 
 //  _____________________________________________________________________________                                _____________________________________________________________________________
 // |      0     |     1      |     2      |      3     |      4     |      5     |                              |     6      |     7      |     8      |     9      |     10     |     11     |           
-     &kp TAB      &kp Q        &kp W       &mp EXCL F   &lp PLUS P   &lp PRCNT B                                    &kp J      &db 0 L      &eb 0 U      &kp Y    &mp RA(BSPC) BSPC  &mp RA(DEL) DEL
+     &lp TAB ESC    &kp Q        &kp W      &mp EXCL F   &lp PLUS P   &lp PRCNT B                                    &kp J      &db 0 L      &eb 0 U      &kp Y    &mp RA(BSPC) BSPC  &mp RA(DEL) DEL
 // |____________|____________|____________|____________|____________|____________|                              |____________|____________|____________|____________|____________|____________|
 // |     12     |     13     |     14     |     15     |     16     |     17     |                              |     18     |     19     |     20     |     21     |     22     |     23     |           
-    &kp GRAVE    &lp AT A     &lp STAR R   &lp DLLR S   &mp MINUS T     &kp G                                     &mp AMPS M   &mp LPAR N   &mp RPAR E   &mp SLASH I  &mp QMARK O   &kp SQT
+   &lp GRAVE TAB   &lp AT A    &lp STAR R   &lp DLLR S   &mp MINUS T     &kp G                                     &mp AMPS M   &mp LPAR N   &mp RPAR E   &mp SLASH I  &mp QMARK O   &kp SQT
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
     &mp LALT ESC  &kp Z        &kp X       &kp C         &mp HASH D   &kp V          &none             &none    &mp CARET K  &mp MINUS H    &kp COMMA     &kp DOT       &kp UP    &mp COLON SEMI
@@ -290,16 +290,16 @@ eb: close-double-bracket {
                         bindings = <
 //  _____________________________________________________________________________        4. RIGHT THUMB 2        _____________________________________________________________________________
 // |      0     |     1      |     2      |      3     |      4     |      5     |                              |     6      |     7      |     8      |     9      |     10     |     11     |         
-     &trans        &trans       &trans       &trans       &trans       &trans                                    &lp RG(J) J  &lp RG(L) L  &lp RG(U) U  &lp RG(Y) Y  &lp RG(BSPC) BSPC &trans
+     &trans        &trans       &trans       &trans       &trans       &trans                                    &lp RG(J) J  &lp RG(L) L  &lp RG(U) U  &lp RG(Y) Y  &kp RG(BSPC) &kp RG(DEL)
 // |____________|____________|____________|____________|____________|____________|                              |____________|____________|____________|____________|____________|____________|
 // |     12     |     13     |     14     |     15     |     16     |     17     |                              |     18     |     19     |     20     |     21     |     22     |     23     |           
      &trans        &trans       &trans       &trans       &trans       &trans                                    &lp RG(M) M  &lp RG(N) N  &lp RG(E) E  &lp RG(I) I  &lp RG(O) (O) &trans
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
-       &trans       &trans       &trans       &trans       &trans       &trans        &trans           &trans    &lp RG(K) K  &lp RG(H) H     &trans       &trans       &trans       &trans
+       &trans       &trans       &trans       &trans       &trans       &trans        &trans           &trans    &lp RG(K) K  &lp RG(H) H     &trans       &trans     &kp RG(UP)     &trans
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |
-       &trans       &trans       &trans       &trans       &trans       &trans        &trans           &trans       &trans       &trans      &trans        &trans       &trans       &trans
+       &trans       &trans       &trans       &trans       &trans       &trans        &trans           &trans       &trans       &trans      &trans     &kp RG(LEFT) &kp RG(DOWN) &kp RG(RIGHT)
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
                         >;
                 };
