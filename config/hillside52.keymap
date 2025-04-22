@@ -26,30 +26,21 @@
         COMBO(three, &kp DEL, 10 11, 0 1 2 3 4 5 6)
         COMBO(six, &kp C_VOL_UP, 46 47, 0 1 2 3 4 5 6)
         COMBO(seven, &kp C_VOL_DN, 45 46, 0 1 2 3 4 5 6)
-//      the following "eight" buttons activate play/pause
-        COMBO(eightA, &kp C_PP, 35 36, 0 1 2 3 4 5 6)
-        COMBO(eightB, &kp C_PP, 47 48, 0 1 2 3 4 5 6)
+        COMBO(eightA, &kp C_PP, 35 36, 0 1 2 3 4 5 6)         // play/pause
+        COMBO(eightB, &kp C_PP, 47 48, 0 1 2 3 4 5 6)         // also play/pause
         COMBO(nine, &kp C_BRI_UP, 6 7, 0 1 2 3 4 5 6)
         COMBO(ten, &kp C_BRI_DN, 18 19, 0 1 2 3 4 5 6)
-        COMBO(eleven, &mo 5, 1 2 3 4, 0 1 2 3 4 5 6)
-        COMBO(twelve, &mo 6, 42 43, 0 1 2 3 4 5 6)
-        COMBO(reset_to_flash_firmware, &bootloader, 38 39 40, 0 1 2 3 4 5 6)
-//      h and , (bottom row right hand index middle fingers) = F13 (triggers BTT rewind in Vivaldi)
-        COMBO(thirteen, &kp F13, 31 32, 0 1 2 3 4 5 6)
-//      , and . (bottom row right hand middle and ring fingers) = F14 (triggered by BTT fastforward in Vivaldi)
-        COMBO(fourteen, &kp F14, 32 33, 0 1 2 3 4 5 6)
-//      copies heading embed link (configured in obsidian settings)
-        COMBO(fifteen, &kp F15, 26 27, 0 1 2 3 4 5 6)
-//      pastes heading embed link (configured in obsidian settings)
-        COMBO(sixteen, &kp F16, 27 28, 0 1 2 3 4 5 6)
-//      activates spontaneous shortcut (configured in btt keyboard shortcut settings)
-        COMBO(note, &kp F17, 37 40, 0 1 2 3 4 5 6)
-//      activates yt note shortcut (configured in btt keyboard shortcut settings)
-        COMBO(YTnote, &kp F18, 38 39, 0 1 2 3 4 5 6)
-//      activates append only one note shortcut (configured in btt keyboard shortcut settings)
-        COMBO(singlenote, &kp F19, 36 41, 0 1 2 3 4 5 6)
-//      middle and right buttons for left thumb activate command shift
-        COMBO(commandshift, &cmd_shft, 43 44, 0 1 2 3 4 5 6)
+        COMBO(eleven, &mo 5, 1 2 3 4, 0 1 2 3 4 5 6)          // holding down all 4 left hand keys above home row > layer 5
+        COMBO(twelve, &mo 6, 42 43, 0 1 2 3 4 5 6)            // hold down first 2 thumb keys for layer 6 (F keys)
+        COMBO(reset_to_flash_firmware, &bootloader, 38 39 40, 0 1 2 3 4 5 6)        // press lower left 3 keys to reset keyboard (to flash firmware)
+        COMBO(thirteen, &kp F13, 33 34, 0 1 2 3 4 5 6)         // h and , (bottom row right hand index middle fingers) = F13 (triggers BTT rewind in Vivaldi)
+        COMBO(fourteen, &kp F14, 34 35, 0 1 2 3 4 5 6)         // , and . (bottom row right hand middle and ring fingers) = F14 (triggered by BTT fastforward in Vivaldi)
+        COMBO(fifteen, &kp F15, 26 27, 0 1 2 3 4 5 6)          // bottom row, left hand ring & middle; copies heading embed link (configured in obsidian settings)
+        COMBO(sixteen, &kp F16, 27 28, 0 1 2 3 4 5 6)          // bottom row, left hand middle & index; pastes heading embed link (configured in obsidian settings)
+        COMBO(note, &kp F17, 43 46, 0 1 2 3 4 5 6)             // L and R middle thumbs (same keys for spotlight/cmd space); activates spontaneous shortcut (configured in btt keyboard shortcut settings)
+        COMBO(YTnote, &kp F18, 44 45, 0 1 2 3 4 5 6)           // L and R upper/innermost thumbs; activates yt note shortcut (configured in btt keyboard shortcut settings)
+        COMBO(singlenote, &kp F19, 42 47, 0 1 2 3 4 5 6)       // L and R outer thumbs (second to outermost thumbs); activates append only one note shortcut (configured in btt keyboard shortcut settings)
+        COMBO(commandshift, &cmd_shft, 43 44, 0 1 2 3 4 5 6)   // middle and right buttons for left thumb activate command shift
     };
 
     mp: medium-long-press {
