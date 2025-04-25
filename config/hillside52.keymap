@@ -232,7 +232,7 @@ eb: close-double-bracket {
    &kp LC(GRAVE) &kp LC(A)    &kp LC(S)   &kp LS(RC(TAB)) &kp RC(TAB)  &kp LC(G)                                 &kp MINUS    &mp LPAR N4  &mp RPAR N5  &mp SLASH N6    &kp N0     &kp DOT
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
-    &kp LC(ESC)  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(D)    &kp LC(V)       &trans            &trans      &kp EQUAL     &kp N1       &kp N2       &kp N3      &kp LC(UP)     &trans
+    &kp LC(ESC)  &kp LC(Z)    &kp LC(X)    &kp LC(C)    &kp LC(D)    &kp LC(V)       &trans            &trans      &kp EQUAL  &mp MINUS N1    &kp N2       &kp N3      &kp LC(UP)    &trans
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |           
       &none         &none        &none        &none       &none      &kp LGUI     &kp LSHIFT           &none     &kp LC(SPACE) &kp LC(RET)    &none     &kp LC(LEFT) &kp LC(DOWN) &kp LC(RIGHT)
