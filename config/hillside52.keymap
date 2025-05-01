@@ -211,7 +211,7 @@ eb: close-double-bracket {
      &lp TAB ESC    &kp Q        &kp W      &mp EXCL F   &lp PLUS P   &lp PRCNT B                                    &kp J      &db 0 L      &eb 0 U      &kp Y    &mp RA(BSPC) BSPC  &mp RA(DEL) DEL
 // |____________|____________|____________|____________|____________|____________|                              |____________|____________|____________|____________|____________|____________|
 // |     12     |     13     |     14     |     15     |     16     |     17     |                              |     18     |     19     |     20     |     21     |     22     |     23     |           
-   &lp GRAVE TAB   &lp AT A    &lp STAR R   &lp DLLR S   &mp MINUS T     &kp G                                     &mp AMPS M   &mp LPAR N   &mp RPAR E   &mp SLASH I  &mp QMARK O   &kp SQT
+   &lp GRAVE TAB   &lp AT A    &lp STAR R   &lp DLLR S   &mp MINUS T     &kp G                                     &mp AMPS M   &mp LPAR N   &mp RPAR E   &mp SLASH I  &lp QMARK O   &kp SQT
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
     &mp LALT ESC  &kp Z        &kp X       &kp C         &mp HASH D   &kp V          &none             &none    &mp CARET K  &mp MINUS H    &kp COMMA     &kp DOT       &kp UP    &mp COLON SEMI
