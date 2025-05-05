@@ -269,7 +269,7 @@ eb: close-double-bracket {
      &trans       &kp LBKT     &kp RBKT     &kp LPAR     &kp RPAR     &trans                                      &kp MINUS   &mp LPAR N4  &mp RPAR N5  &mp SLASH N6    &kp N0       &trans
 // |____________|____________|____________|____________|____________|____________|____________      ____________|____________|____________|____________|____________|____________|____________|
 // |     24     |     25     |     26     |     27     |     28     |     29     |    30 T    |    |    31 T    |     32     |     33     |     34     |     35     |     36     |     37     |           
-     &trans       &trans       &kp LBRC     &kp RBRC     &kp PIPE     &kp TILDE       &trans           &trans     &kp EQUAL   &mp MINUS N1 &mp COMMA N2  &mp DOT N3     &kp UP       &trans
+     &trans       &trans       &kp LBRC     &kp RBRC     &kp PIPE     &kp TILDE       &trans           &trans     &kp EQUAL   &mp MINUS N1 &mp COMMA N2  &mp DOT N3     &kp UP     &kp COLON
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |
        &trans       &trans       &trans       &trans       &trans       &trans        &trans           &trans       &trans       &trans      &trans        &trans       &trans       &trans
