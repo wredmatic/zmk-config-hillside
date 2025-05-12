@@ -217,7 +217,7 @@ eb: close-double-bracket {
     &mp LALT ESC  &kp Z        &kp X       &kp C         &mp HASH D   &kp V          &none             &none    &mp CARET K  &mp MINUS H    &kp COMMA     &kp DOT       &kp UP     &lt 7 SEMI
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
 // |     38     |     39     |     40     |    41 T1   |    42 T2   |    43 T3   |    44 T4   |    |   45 T1    |   46 T2    |   47 T3    |   48 T4    |     49     |     50     |     51     |           
-      &none         &none        &none        &none     &lt 1 HOME   &cmd_plus   &mt LSHIFT SPACE  &lt 3 END    &lt 4 SPACE  &mt RALT RET     &none      &lt 7 LEFT   &lt 7 DOWN   &lt 7 RIGHT
+      &none         &none        &none        &none     &lt 1 HOME   &cmd_plus   &mt LSHIFT SPACE  &lt 3 END    &lt 4 SPACE  &mt RALT RET     &kp F24      &lt 7 LEFT   &lt 7 DOWN   &lt 7 RIGHT
 // |____________|____________|____________|____________|____________|____________|____________|    |____________|____________|____________|____________|____________|____________|____________|
                         >;
                 };
